@@ -1,8 +1,8 @@
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument("text", help="Text",type=str)
-parser.add_argument("start_index", help="Text",type=int)
-parser.add_argument("end_index", help="Text",type=int)
+parser.add_argument("text", help="Text", type=str)
+parser.add_argument("start_index", help="Text", type=int)
+parser.add_argument("end_index", help="Text", type=int)
 
 args = parser.parse_args()
 

@@ -1,2 +1,2 @@
 user_name = input("Input user name: ")
-print("Welcome, ", user_name)
+print("Welcome, %s !" % user_name)
